@@ -1,0 +1,577 @@
+/* navbar */
+*{
+    font-family: Camphor,Helvetica,Arial,sans-serif;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 62px;
+    font-family: Camphor,Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 15px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+    z-index: 1;
+}
+
+#navbar>div{
+    margin-top: 10px;
+}
+#navbar>.box{
+    width: 125px;
+    margin-right: 8px;
+}
+#navbar>.box>p{
+    font-size: 12px;
+    color: #787887;
+    margin: 0%;
+    margin-top: 4px;  
+}
+#navbar>div>h4{
+    margin: 0px;
+    margin-top: 3px;
+}
+#navbar>#login{
+    height: 15px;
+    display: flex;
+    font-size: 13px;
+    color: #787887;
+    border-radius: 4px;
+    border: solid 1px #d3d3d3;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+#navbar>div>select{
+    border: none;
+    margin-top: 10px;
+    width: 90%;
+}
+.logo{
+    width: 10%;   
+    margin: 0px 25px;
+}
+#login>div{
+    margin: 2px;
+}
+#login>div>a{
+    text-decoration: none;
+    color: #787887;
+}
+#login>div>a:hover{
+    color: #14bef0;;
+}
+#navbar>#login:hover{
+    border-color: #14bef0;
+    color: #14bef0;
+}
+.box>h4>a{
+    text-decoration: none;
+    color: black;
+}
+
+/*search */
+
+#search{
+    border-top: 1px solid #d3d3d3;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Camphor,Helvetica,Arial,sans-serif;
+}
+
+.fas{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#search>.right{
+    width: 18%;
+    display: flex;
+    background-color: #ffdef7;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 11px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+#search>.right>div{
+    margin-right: 7px;
+}
+#search>.right>.plus{
+    background-color: #c65aab;
+    height: 18px;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+#search>.right>.try{
+    margin-top: 5px;
+}
+
+
+#search>.left{
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 60%;
+    height: 40px;
+    border: 1px solid #787887;
+    border-radius: 3px;
+}
+#search>.left>input{
+    border: none;
+    width: 350px;
+}
+#search>.left>#location{
+    width: 40%;
+    height: 95%;
+    border: none;
+    border-right: 1px solid #787887;
+}
+#search>.left>#loca{
+    height: 95%;
+}
+
+/* download app */
+
+#app{
+    width: 100%;
+    height: 572px;
+    background-color: #f8f8fb;
+    display: flex;
+    font-family: Camphor,Helvetica,Arial,sans-serif;
+}
+#app>.image{
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 332px;
+    height: 376px;
+}
+#app>.rightbox{
+    height: 376px;
+    width: 40%;
+    margin-top: 120px;
+
+}
+#app>.rightbox>h3{
+    margin-top: 50px;
+}
+#app>.rightbox>.number{
+    display: flex;
+}
+
+#app>.rightbox>.number>div{
+    padding-top: 10px;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+#app>.rightbox>.number>div>input{
+    border: none;
+    padding: 10px;
+}
+
+#app>.rightbox>.number>button{
+    background-color: #14bef0;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+#app>.rightbox>.google{
+    margin-top: 30px;
+    display: flex;
+}
+#app>.rightbox>.google>img{
+    width: 130px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+/* section 5 */
+
+#articals{
+    width: 100%;
+    height: 370px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+}
+#articals>div{
+    width: 25%;
+    height: 85%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#articals>div:first-child{
+    padding-left: 20px;
+    margin-left: 90px;
+}
+#articals>div>.img{
+    width: 100%;
+    height: 65%;
+}
+
+#articals>div>.bottom>h5,h4,p{
+    margin: 0%;
+}
+
+#articals>div>.bottom>p{
+    margin-top: 10px;
+}
+
+#articals>div>.bottom>h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#articals>div>.bottom>h5{
+    color: #4c8a92;
+}
+#articals>div:first-child>.btn{
+    background-color: #14bef0;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 0%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* carousel */
+
+#carousel{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+#carousel>p{
+    font-size: 20px;
+    line-height: 25px;
+}
+#carousel>h1{
+    margin-top: 55px;
+}
+
+/* section 4 */
+
+#cards{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#cards>div:first-child{
+    width: 100%;
+    height: 20%;
+}
+
+#cards>div:first-child>h2,p{
+    margin-top: 6px;
+}
+
+#cards>div:last-child{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cards>div:last-child>div{
+    width: 23%;
+    height: 100%;
+}
+
+#cards>div:last-child>div>div:first-child{
+    width: 100%;    
+    height: 60%;
+}
+
+#cards p{
+    color: gray;
+}
+
+#cards h3:hover{
+    color: #14bef0;
+}
+
+/* footer
+
+#footer-color {
+    background-color: #28328c;
+    height: 500px;
+}
+
+#footer-color>#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#iteams {
+    list-style: none;
+}
+
+#iteams>li>a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#iteams>p {
+    color: white;
+    font-family: sans-serif;
+}
+
+#footer-color>#logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer-color>#copy {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+} */
+
+/* section 1 */
+
+#surgery{
+    border-radius: 30px;
+    width: 95%;
+    height: 290px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    background-color: #333fa2;
+}
+
+#surgery>div{
+    width: 50%;
+    height: 100%;
+}
+
+#surgery>div:first-child>.img{
+    width: 45%;
+    height: 18%;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#surgery>div:first-child>.desc{
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#surgery>div:first-child>.desc>h1{
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+#surgery>div:first-child>.desc>button{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.boximg{
+    position: absolute;
+    top: 165px;
+    right: 40px;
+    box-sizing: border-box;
+}
+
+/* section 2 */
+
+#lab{
+    width: 95%;
+    height: 290px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+#lab>div{
+    width: 17%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+#lab>div>.img1{
+    width: 100%;
+    height: 55%;
+    margin: auto;
+    background-color: #afcfed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#lab>div>.img2{
+    width: 100%;
+    height: 55%;
+    margin: auto;
+    background-color: #98cbd6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#lab>div>.img3{
+    width: 100%;
+    height: 55%;
+    margin: auto;
+    background-color: #ccd0db;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#lab>div>.img4{
+    width: 100%;
+    height: 55%;
+    margin: auto;
+    background-color: #afcfed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#lab>div>.img5{
+    width: 100%;
+    height: 55%;
+    margin: auto;
+    background-color: #d5d8fc;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#lab>div>div:last-child{
+    margin-left: 20px;
+}
+#lab>div>div:last-child>p{
+    color: gray;
+    font-size: 14px;
+}
+
+/* section 3 part 1*/
+
+#consult{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+#consult>div>h2,p{
+    margin: 0%;
+}
+
+#consult>div>p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#consult>button{
+    border: 2px solid #14bef0;
+    color: #14bef0;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+/* section 3 part 2*/
+
+#consult2{
+    width: 90%;
+    height: 230px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#consult2>div{
+    width: 11%;
+    height: 100%;
+}
+
+#consult2>div>div:first-child{
+    width: 100%;
+    height: 53%;
+}
+
+#consult2>div>div:last-child{
+    text-align: center;
+    margin-top: 10px;
+}
+#consult2>div>div:last-child>.color{
+    margin-top: 10px;
+    color: #14bef0;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    #navbar>.box{
+        display: none;
+    }
+    #navbar{
+        justify-content: space-between;
+    }
+    #surgery>div>.desc>h1{
+        margin: 2px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 376px) {
+    #navbar>.box{
+        display: none;
+    }
+    #search>.right{
+        display: none;
+    }
+    #navbar{
+        width: 100%;
+    }
+    #navbar>.logo{
+        width: 35%;
+        padding-top: 5px;
+    }
+    #surgery{
+        height: 200px;
+    }
+    #surgery>div>.desc>h1,button{
+        display: none;
+    }
+    #app{
+        display: none;
+    }
+}
+
+
+/* footer */
+

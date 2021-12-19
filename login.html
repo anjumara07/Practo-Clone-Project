@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practo Accounts</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="navigationbar">
+        <div><a href="login.html" id="loginbar">Login</a></div>
+        <div><a href="register.html" class="register">Register<a></div>
+    </div>
+
+    <div class="container">
+        <div>
+            <img src="https://accounts.practo.com/static/images/illustration.png" alt="">
+        </div>
+        <div>
+            <!-- main content area  -->
+            <label for="name"> Mobile Number / Email Id</label>
+            <br>
+            <input type="text" id="numEmail" style="width:90%; line-height: 30px;" placeholder="Enter your mobile Number / Email Id">
+            <br><br>
+            <label for="number">Password</label>
+            <br>
+            <input type="password" id="pass" style="width: 90%; line-height: 30px; " size="50" placeholder="Password"> <br>
+
+            <br>
+            <input type="checkbox" name="rememberme" checked>
+            <label for="rememberme">Remember me for 30 days</label> <span id="span">forgot Password?</span>
+            <br>
+            <input type="checkbox" name="otp">
+            <label for="otp"> Login with OTP instead of Password </label>
+            <br>
+            <button id="loginbutton">Login</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="login.js"></script>

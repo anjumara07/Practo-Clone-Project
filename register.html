@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practo Accounts</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="navigationbar">
+        <div><a href="login.html" id="loginbar">Login</a></div>
+        <div><a href="register.html" class="register">Register<a></div>
+    </div>
+
+    <div class="container">
+        <div>
+            <img src="https://accounts.practo.com/static/images/illustration.png" alt="">
+        </div>
+        <div id="contentbox">
+            <!-- main content area  -->
+            <div class="joinpracto">
+                <h4>Join Practo</h4>
+                <p id="ptag">Are you a doctor?<span id="registerhere"> <a id="atag" href="">
+                            Register here
+                        </a> </span></p>
+
+            </div>
+            <hr>
+            <label for="name"> Mobile Number / Email Id</label>
+            <br>
+            <input type="text" id="numEmail" class="inputtag" placeholder="Enter your mobile Number / Email Id">
+            <br><br>
+            <label for="number">Mobile Number</label>
+            <br>
+            <select id="num-select">
+                <option value="">+91(IND)</option>
+                <option value="">+65(SGP)</option>
+                <option value="">+63(PHL)</option>
+                <option value="">+60(MYS)</option>
+                <option value="">+62(IDN)</option>
+                <option value="">+55(BRA)</option>
+                <option value="">+56(ARG)</option>
+                <option value="">+84(CHL)</option>
+                <option value="">+971(UAE)</option>
+                <option value="">+1(USA)</option>
+
+            </select>
+
+            <input type="text" id="num" class="inputtag" style="width: 70%; " placeholder="Mobile Number">
+            <br>
+            <label for="password">Create New Password</label><br>
+            <input type="password" id="pass" class="inputtag" size="50" placeholder="Password"> <br>
+
+            <br>
+            <input type="checkbox" name="checkbox">
+            <label for="checkbox"> Receive relavent offers and Promotional communication <br>from Practo </label>
+            <br>
+            <span id="span">by signing up I agree to </span><span
+                style="color:Deepskyblue; font-size: 14px;">terms.</span></span>
+            <button id="loginbutton">Send OTP</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="register.js"></script>

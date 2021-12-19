@@ -1,0 +1,38 @@
+#footer-color {
+    background-color: #28328c;
+    height: 500px;
+    padding-top:40px;
+  }
+
+  #footer-color > #container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #iteams {
+    list-style: none;
+  }
+
+  #iteams > li > a:hover{
+      text-decoration: underline;
+  }
+  #iteams > li > a {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    
+  }
+  #iteams > p {
+    color: white;
+    font-family: sans-serif;
+    margin-bottom:6px;
+  }
+  #footer-color > #logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #footer-color > #copy {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }

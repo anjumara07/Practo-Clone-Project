@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Medicine Online | India's</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/6fa3bd69d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div id="logo">
+            <img src="https://www.practo.com/nav/9.5.10/consumer/images/practo.svg" alt="practo logo" width="100%"
+                height="100%">
+        </div>
+    </nav>
+    <div id="left-arrow"><img height="10%" width="2%" alt=""><button onclick="window.location.href = 'medicines.html' " class="arrow"><i class="fas fa-arrow-left"></i>Go to
+            previous page</button></div>
+
+
+
+    <div id="cart">
+        <h2 class="center">My cart: <cart:p id="cartLen"></cart:p> items<h2>
+                <div id="cartItm"></div>
+                <button class="addItm" onclick="window.location.href='medicines.html'">Add More Medicines</button>
+
+    </div>
+
+    <div class="bottom-container">
+        <h4 id="total">Payable Amount: 0</h4>
+        <button class="bottom-btn" onclick="next()">Checkout</button>
+    </div>
+</body>
+
+</html>
+
+<script src="cart.js"></script>

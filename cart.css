@@ -1,0 +1,135 @@
+body {
+    background-color: #f0f0f5;
+    font-family: sans-serif;
+}
+
+/* main cart box */
+#cart {
+    width: 60%;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: white;
+    padding-bottom: 180px;
+}
+
+#cartItm {
+    font-size: 12px;
+
+}
+
+/* common class for cart items*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid skyblue;
+    padding: 15px 20px;
+    height: 100px;
+}
+
+.flex1 {
+    display: flex;
+
+}
+
+.grid {
+    display: flex;
+
+}
+
+.grid>div {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid skyblue;
+    padding: 20px;
+}
+
+/* ----------------------------- */
+h2 {
+    text-align: left;
+    font-family: Sans-serif;
+}
+
+.border {
+    border: 2px solid #1cf;
+
+}
+
+.qty {
+    background-color: #1cf;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 68px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#logo {
+    height: 100%;
+    width: 8%;
+    margin-left: 50px;
+}
+
+#left-arrow {
+    padding-left: 250px;
+    cursor: pointer;
+
+}
+
+.arrow {
+    /* background-color: #1cf; */
+    color: #1cf;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.addItm {
+    padding: 12px 55px;
+    border: 2px solid #14bef0;
+    color: #14bef0;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    font-style: 14px;
+    margin: 20px;
+}
+
+.bottom-container {
+    width: 59.1%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid black; */
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.bottom-btn {
+    width: 100%;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    background-color: skyblue;
+    border: none;
+    margin: auto;
+    display: block;
+}
+.fas{
+    margin-right: 20px;
+}

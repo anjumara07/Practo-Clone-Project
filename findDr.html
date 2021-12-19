@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Practo | Book Doctor Appointments Online, Order Medicine, Diagnostic
+      Tests, Consult.
+    </title>
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="findDr.css" />
+    <script  src="https://kit.fontawesome.com/cb6e07c0b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navBar.css">
+  </head>
+
+  <body>
+
+   <!-- Navigation Bar -->
+    <div id="navbar">
+        <div class="logo">
+            <img src="https://www.practo.com/nav/9.5.10/consumer/images/practo.svg" alt="practo logo" width="100%">
+        </div>
+        <div class="box active">
+            <h4>Find Doctors</h4>
+            <p>Book an appointment</p>
+        </div>
+        <div class="box">
+            <h4>Video Consult</h4>
+            <p>Consult top doctors</p>
+        </div>
+        <div class="box">
+            <h4><a href="medicines.html">Medicines</a></h4>
+            <p>Practo pharmacy</p>
+        </div>
+        <div class="box">
+            <h4>Lab Tests</h4>
+            <p>Book tests & checkup</p>
+        </div>
+        <div class="box">
+            <h4>Surgeries</h4>
+            <p>Expert surgical care</p>
+        </div>
+        <div class="box select">
+            <select name="" id="">
+                <option value="">For Providers</option>
+                <option value="">Practo Prime</option>
+                <option value="">Software for providers</option>
+                <option value="">List your practice for free</option>
+                <option value="">Corporate wellness</option>
+            </select>
+        </div>
+        <div class="box select">
+            <select name="" id="">
+                <option value="">Security & help</option>
+                <option value="">Data security</option>
+                <option value="">Help</option>
+            </select>
+        </div>
+        <div id="login">
+            <div>Login</div>
+            <div> / </div>
+            <div>Signup</div>
+        </div>
+    </div>
+
+
+    <!-- banner container -->
+    <div id="bigBanner-container">
+      <!-- banner div -->
+      <div id="bigBanner">
+        <!-- main heading -->
+        <h1>Your home for health</h1>
+
+        <!-- next heading -->
+        <h2>Find and Book</h2>
+
+        <!-- search box -->
+
+        <div id="searchBox-banner">
+          <!-- city selector -->
+          <div id="citySearch-banner">
+            <input type="text" placeholder="Bangalore" />
+          </div>
+          <!-- dr search -->
+          <div id="drSearch-banner">
+            <input type="text" placeholder="Search doctors,clinics,hospital,etc." />
+          </div>
+        </div>
+
+        <!-- search box bottom icons -->
+        <div id="popularSearch">
+          <p>Popular Searches:</p>
+          <a href="">Dermatologist</a>
+          <a href="">Pediatrician</a>
+          <a href="">Gynecologist/Obstetrician</a>
+          <a id="down" href="">Others</a>
+        </div>
+
+        <!-- drop down -->
+        <div id="dropDown">
+          <div class="hidden remove">
+            General Physicians and Specialists
+
+            <a>Ophthalmologist</a>
+
+            <a>Dermatologist</a>
+
+            <p>Cardiologist</p>
+
+            <p>Psychiatrist</p>
+
+            <p>Gastroenterologist</p>
+
+            <p>Ear-Nose-Throat (ENT)</p>
+
+            <p>Gynecologist / Obstetrician</p>
+
+            <!-- <p>Neurologist</p>
+
+            <p>Urologist</p> -->
+          </div>
+          <div class="hidden remove">
+            Dentist
+
+            <p>Dentist</p>
+
+            <p>Prosthodontist</p>
+
+            <p>Orthodontist</p>
+
+            <p>Pediatric</p>
+
+            <p>Endodontist</p>
+
+            <p>Implantologist</p>
+          </div>
+
+          <div class="hidden remove">
+            Alternative Medicine Practitioners
+
+            <p>Ayurveda</p>
+
+            <p>Homoeopath</p>
+
+            <p>Siddha</p>
+
+            <p>Unani</p>
+
+            <p>Yoga & Naturopathy</p>
+          </div>
+
+          <div class="hidden remove">
+            Dentist
+
+            <p>Acupuncturist</p>
+
+            <p>Physiotherapist</p>
+
+            <p>Psychologist</p>
+
+            <p>Audiologist</p>
+
+            <p>Speech</p>
+
+            <p>Dietitian/Nutritionist</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- icons div -->
+      <div id="bigBanner-icons" class="flex">
+        <div><span class="block"><i class="far fa-comments"></i></span>
+          Consult with doctor</div>
+        <div><span class="block"><i class="far fas fa-shopping-cart"></i></span>
+          Other medicines</div>
+        <div><span class="block"><i class="far fas fa-book-medical"></i></span>
+          View medical records</div>
+        <div><span class="block"><i class="far fas fa-vials"></i></span>
+          Book test</div>
+        <div><span class="block"><i class="far fa-newspaper"></i></span>
+          Read article</div>
+        <div><span class="block"><i class="far fas fa-briefcase"></i></span>
+          For healthcare providers</div>
+      </div>
+    </div>
+
+    <!-- safety section -->
+    <div id="safety_section">
+      <div class="flex">
+        <div id="safety_section_readMore">
+          <h1>Safety of your data is our</h1>
+          <h1><b>top priority.</b></h1>
+          <!-- p add blue tick -->
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p>Multi-level security checks</p>
+              <p>Multiple data backups</p>
+              <p>Stringent data privacy policies</p>
+            </span>
+          </div>
+          <button>Read More</button>
+        </div>
+        <div id="imgThief_safety_section"></div>
+      </div>
+      <div class="safety_section_bottom-icons flex">
+        <div>
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_2.654a7085bfa74c726f26b64edaafd9a5.png"
+          />
+
+          <p>256-bit</p>
+          <p>encryption</p>
+        </div>
+
+        <div>
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_3.a73921ca6e980ed186518d7cb0ce64bf.png"
+          />
+
+          <p>ISO 27001</p>
+          <p>certified</p>
+        </div>
+
+        <div>
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_4.216e25d35038f0e7f6d8a514727fa67a.png"
+          />
+
+          <p>HIPAA</p>
+          <p>compliant data centers</p>
+        </div>
+
+        <div>
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/security_5.cf6e04c57178071a67c219b43066ffcf.png"
+          />
+
+          <p>DSCI</p>
+          <p>member</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- appointment section -->
+    <div id="appointment-section">
+      <div class="flex">
+        <div class="common">
+          <h1>Instant appointment with</h1>
+          <h1>doctors.<b>Guaranteed.</b></h1>
+          <!-- p add blue tick -->
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p><b>100,000</b> Verified doctors</p>
+              <p><b>3M+</b> Patient recommendations</p>
+              <p><b>25M </b>Patients/year</p>
+            </span>
+          </div>
+          <button>Find me the right doctor</button>
+
+          <div class="bottom-text">
+            <img src="images/rating-ss.png" width="80px" malt="" />
+            <p>
+              Very good app. Well thought out about
+              booking/rescheduling/cancelling an appointment. Also Doctor's
+              feedbac k mechanism is good and describes all the basics in good
+              way.
+            </p>
+
+            <p>Avinash Kumar</p>
+          </div>
+        </div>
+
+        <div class="video-loop">
+          <video
+            src="//www.practostatic.com/web-assets/home/assets/videos/appointment.700ce682eaec91bf93b6574cb8f09cd0.webm"
+            width="250px"
+            hight="480px"
+            autoplay
+            loop
+            loading="false"
+          ></video>
+        </div>
+      </div>
+    </div>
+
+    <!-- waiting room section -->
+    <div id="waitingRoom-section">
+      <div class="flex">
+        <div class="video-loop">
+          <video
+            src="//www.practostatic.com/web-assets/home/assets/videos/consult.099446892618434cc8a038d7844c4380.webm"
+            width="250px"
+            hight="480px"
+            autoplay
+            loop
+            loading="false"
+          ></video>
+        </div>
+
+        <div class="common">
+          <h1>Skip the waiting room.</h1>
+          <h1><b>Consult with a doctor</b></h1>
+          <!-- p add blue tick -->
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p>Fees starting at <b>₹99</b></p>
+              <p>Verified doctors respond in <b>5 minutes</b></p>
+              <p><b>100% </b>Private and confidential</p>
+            </span>
+          </div>
+          <button>Consult Now</button>
+          <p class="color inline-block">
+            <span class="dotBlue">●</span> <b>58181</b> doctors online
+          </p>
+
+          <div class="bottom-text">
+            <img src="images/rating-ss-grey.png" width="80px" malt="" />
+            <p>
+              Very good app. Well thought out about
+              booking/rescheduling/cancelling an appointment. Also Doctor's
+              feedbac k mechanism is good and describes all the basics in good
+              way.
+            </p>
+
+            <p>Avinash Kumar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- article health experts section -->
+    <div id="article-section">
+      <h1>Read top articles from health experts</h1>
+
+      <div class="flex">
+        <div>
+          <div class="article-img-div">
+            <img
+              src="https://www.practostatic.com/fit/00b257b8daaecaa9b124672dbabce89426b0d9f4"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <h3>5 Foods That Boost Immunity</h3>
+            <p>Ms.Swati Kapoor,Dietitian/Nutritionist</p>
+            <p>735Likes <span>●</span> 96943Views</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="article-img-div">
+            <img
+              src="https://www.practostatic.com/fit/080d4729188da120ab11455535091e74117c6e57"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <h3>5 Foods That Boost Immunity</h3>
+            <p>Ms.Swati Kapoor,Dietitian/Nutritionist</p>
+            <p>735Likes <span>●</span> 96943Views</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="article-img-div">
+            <img
+              src="https://www.practostatic.com/fit/1d1eebe0761ac58dc527b2f10dafbdfc766df0a0"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <h3>5 Foods That Boost Immunity</h3>
+            <p>Ms.Swati Kapoor,Dietitian/Nutritionist</p>
+            <p>735Likes <span>●</span> 96943Views</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="article-btn">More articles</button>
+    </div>
+
+    <!-- ORDER MEDICINE SECTION -->
+    <div id="order-medicine-section">
+      <div class="flex">
+        <div class="common">
+          <h1>Get all your medicines.</h1>
+          <h1><b>Everytime. On time.</b></h1>
+          <!-- p add blue tick -->
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p>Guaranteed availability</p>
+              <p>Over <b>130,000+</b> genuine medicines</p>
+              <p>Home delivery in <b>24hrs</b></p>
+            </span>
+          </div>
+          <button>Order Medicines</button>
+          <p class="color inline-block">
+            Last order delivered <b>15 mins</b> ago in South Extension II, New
+            Delhi
+          </p>
+
+          <div class="bottom-text">
+            <img src="images/rating-ss-grey.png" width="80px" malt="" />
+            <p>
+              Very good app. Well thought out about
+              booking/rescheduling/cancelling an appointment. Also Doctor's
+              feedbac k mechanism is good and describes all the basics in good
+              way.
+            </p>
+
+            <p>Avinash Kumar</p>
+          </div>
+        </div>
+
+        <div class="video-loop">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/order.c84fc07b0be8a7e8d4db432eb4e606a2.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- medicine records section -->
+    <div id="medicine-record-section">
+      <div class="flex">
+        <div class="video-loop">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/record.bfc5241f9b15340a32c98eb360d1005a.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="common">
+          <h1>All your medical records</h1>
+          <h1><b>In one secure app.</b></h1>
+          <!-- p add blue tick -->
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p>256-bit end to end encryption</p>
+              <p>Records are accessible only by you</p>
+              <p>Access your records across<b> 8000+</b> centers</p>
+            </span>
+          </div>
+          <button>Find out more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- business lear more section -->
+    <div id="business-learnMore-section">
+      <div class="flex">
+        <div class="common">
+          <h1>Leading Healthcare Providers.</h1>
+          <h1><b>Trust us for Business</b></h1>
+          <!-- p add blue tick -->
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p>Get seen by<b> 25M+ </b>patients on Practo.com</p>
+              <p>The most advanced software for clinics and hospitals</p>
+              <p>State of the art business analytics for enterprises</p>
+            </span>
+          </div>
+          <button>Learn more</button>
+
+          <div class="bottom-text">
+            <img src="images/rating-ss-grey.png" width="80px" malt="" />
+            <p>
+              Very good app. Well thought out about
+              booking/rescheduling/cancelling an appointment. Also Doctor's
+              feedbac k mechanism is good and describes all the basics in good
+              way.
+            </p>
+
+            <p>Avinash Kumar</p>
+          </div>
+        </div>
+
+        <div class="video-loop">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/provider.c4a3d938da109434de6ce3a9046bbf42.png"
+            alt=""
+            width="563px"
+            ;
+            height="415px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- download app section -->
+    <div id="download-section">
+      <div class="flex">
+        <div class="video-loop">
+          <img
+            src="https://www.practostatic.com/web-assets/home/assets/images/download.a9fb5307ceed47df0af1f39cf4e95519.png"
+            alt=""
+            width="300x"
+          />
+        </div>
+
+        <div class="common">
+          <h1>
+            <b>Download the Practo app</b>
+          </h1>
+
+          <div>
+            <span>
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+              <img src="images/check.png" alt="" />
+            </span>
+            <span>
+              <p>Book appointments and lab tests</p>
+              <p>Order medicines</p>
+              <p>Consult doctors online</p>
+              <p>Set medicine reminders</p>
+              <p>Store health records</p>
+              <p>Read health tips</p>
+            </span>
+          </div>
+          <div class="flex">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.practo.fabric&referrer=af_tranid%3D6qdwggywa2VfCN9cFJW3CA%26pid%3Dweb%26c%3Dhomepage%26af_web_id%3Dc476e372-df3a-44a4-8352-196e3bff6250-c"
+            >
+              <img
+                src="https://www.practostatic.com/web-assets/home/assets/images/google_badge.bfeb9607baa4c7c0b6897ad8c3adbebe.png"
+                alt=""
+              />
+            </a>
+
+            <a href="https://apps.apple.com/IN/app/id953772015?mt=8"
+              ><img
+                src="https://www.practostatic.com/web-assets/home/assets/images/google_badge.bfeb9607baa4c7c0b6897ad8c3adbebe.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer-color">
+      <div id="container">
+        <div>
+          <ul id="iteams">
+            <p>practo</p>
+            <li><a href="#">about</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">career</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="iteams">
+            <p>For Patients</p>
+            <li><a href="#">Search for doctors</a></li>
+            <li><a href="#">search for hospital</a></li>
+            <li><a href="#">Book Diagnostic</a></li>
+            <li><a href="#">Book full body checkups</a></li>
+            <li><a href="#">Practo plus</a></li>
+            <li><a href="#">Covid hospital listing</a></li>
+            <li><a href="#">Reed health articles</a></li>
+            <li><a href="#">Read abot medicine</a></li>
+            <li><a href="#">Practo drive</a></li>
+            <li><a href="#">Health app</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="iteams">
+            <p>For doctors</p>
+            <p>Practo Profile</p>
+            <li><a href="#">For clinics</a></li>
+            <li><a href="#">Ray by Practo</a></li>
+            <li><a href="#">Practo Reach</a></li>
+            <li><a href="#">Ray Tab</a></li>
+            <li><a href="#">Practo Pro</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="iteams">
+            <p>For hospitals</p>
+            <li><a href="">Insta by Practo</a></li>
+            <li><a href="">Qikwell by Practo</a></li>
+            <li><a href="">Practo Profile</a></li>
+            <li><a href="">Practo Reach</a></li>
+            <li><a href="">Practo Drive</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="iteams">
+            <p>More</p>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Healthcare Directory</a></li>
+            <li><a href="#">Practo Health Wiki</a></li>
+            <li><a href="#">Corporate Wellnes</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="iteams">
+            <p>Social</p>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkden</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Github</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="logo">
+        <img
+          src="https://www.practostatic.com/web-assets/images/white_practo_logo.svg"
+          alt=""
+        />
+      </div>
+      <div id="copy">
+        <p>Copyright © 2017, Practo. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="findDr.js"></script>

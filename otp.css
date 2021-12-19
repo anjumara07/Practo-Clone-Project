@@ -1,0 +1,33 @@
+* {
+    font-family: Camphor, Helvetica, Arial, sans-serif;
+}
+#box{
+    height: 290px;
+    width: 350px;
+    border: 1px solid rgb(156, 152, 152);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3px;
+}
+button{
+    width: 90%;
+    height: 15%;
+    background-color: #14bef0;
+    color: white;
+    margin-left: 17px;
+    border: none;
+    border-radius: 3px;
+}
+
+#box p,h3,input{
+    margin-left: 15px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(179, 174, 174);
+    border-radius: 3px;
+}
+span{
+    color: #0ab7ec;
+}

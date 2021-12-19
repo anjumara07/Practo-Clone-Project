@@ -1,0 +1,68 @@
+  body {
+    background-color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    color: gray;
+  }
+
+  .navigationbar {
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  #loginbar {
+    color: deepskyblue;
+  }
+
+  .register {
+    color: grey;
+  }
+
+  .navigationbar > div {
+    border: 1px solid transparent;
+    margin: 20px;
+    padding-top: 80px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    justify-content: center;
+    align-items: center;
+  }
+  .container > div {
+    padding: 20px;
+  }
+
+  #loginbutton {
+    /* background-color: deepskyblue;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px; */
+    background-color: deepskyblue;
+    width: 90%;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+  }
+
+  #span {
+    font-size: 10px;
+    color: deepskyblue;
+    padding-left: 40px;
+  }
+
+  label {
+    line-height: 40px;
+  }
+  
+  @media only screen and (min-width: 0) and (max-width: 955px) {
+    .container + div,
+    img {
+      display: none;
+    }
+  }

@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-size: 19px;
+    color: gray;
+  }
+  .navigationbar {
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .register {
+    color: deepskyblue;
+  }
+  .navigationbar > div {
+    border: 1px solid transparent;
+    margin: 20px;
+    padding-top: 80px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    justify-content: center;
+    align-items: center;
+  }
+  .container > div {
+    padding: 20px;
+    margin: 40px;
+  }
+  #loginbutton {
+    background-color: deepskyblue;
+    width: 90%;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+  }
+  label {
+    line-height: 40px;
+  }
+  .joinpracto {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+  }
+  #contentbox {
+    border: 0.5px solid grey;
+    max-width: 500px;
+  }
+  #ptag {
+    padding-left: 80px;
+  }
+  #registerhere {
+    color: orange;
+  }
+  .inputtag {
+    width: 90%;
+    line-height: 30px;
+  }
+  #atag {
+    color: orange;
+  }
+  #loginbar {
+    color: grey;
+  }
+  #span {
+    font-size: 14px;
+    /* color:deepskyblue; */
+    padding-left: 40px;
+  }
+  #num-select {
+    height: 34px;
+    color: gray;
+  }
+  @media only screen and (min-width: 0) and (max-width: 955px) {
+    .container + div,
+    img {
+      display: none;
+    }
+  }
